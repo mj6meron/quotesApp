@@ -6,7 +6,7 @@ fetch('/quote', {
 }).then(result => result.json()).then(data => {
     console.log(data[0])
         quote.innerHTML = `${data[0].quote}`
-        author.innerHTML  = `Author - ${data[0].author}`
+        author.innerHTML  = `- ${data[0].author}`
     }
 )
 
@@ -17,7 +17,7 @@ function leaveFunction (){
         method: 'GET'
     }).then(result => result.json()).then(data => {
         quote.innerHTML = `${data[0].quote}`
-        author.innerHTML  = `Author - ${data[0].author}`
+        author.innerHTML  = `- ${data[0].author}`
         }
     )
     }
