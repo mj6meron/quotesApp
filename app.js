@@ -1,7 +1,7 @@
 const express = require ('express')
 const app = express()
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 1337
 let todaysQuote = ""
 // Middleware for json
 app.use(express.json())
