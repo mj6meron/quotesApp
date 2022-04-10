@@ -15,9 +15,8 @@ body {
 
 .welcomingH1 {
   padding: 1%;
-  font-family: fantasy;
   font-weight: bold;
-  color: rgba(255, 0, 0, 0.3);
+  color: rgba(29, 0, 0, 0.3);
 }
 #quoteP {
   margin: 5% auto;
@@ -40,8 +39,7 @@ body {
   margin: 3% auto;
   margin-bottom: 3%;
   font-size: large;
-  font-family: fantasy;
-  font-weight: bold;
+  color: rgba(144, 0, 180, 0.5);
 }
 
 #authorV:hover,
@@ -66,7 +64,7 @@ button:active {
 
 #email {
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.15;
   right: 2px;
   bottom: 4px;
 }
